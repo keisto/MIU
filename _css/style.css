@@ -1,3 +1,4 @@
+/* Mold Fitness :: MiU Project 1 :: By Tony Keiser 1212 */
 /* Default Classes */
 header{
 	text-align: center;
@@ -189,7 +190,10 @@ a:active {text-decoration:none; color:black; }
 	margin: 0;
 	margin-bottom: 5px;
 }
-
+.under{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
 .genderradio {
 	padding: 2px;
 	margin: 0px;

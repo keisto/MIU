@@ -1,5 +1,4 @@
-//  Mold Fitness :: Project: Web App Part 4 :: By Tony Keiser 1112
-
+//Mold Fitness :: MiU Project 1 :: By Tony Keiser 1212
 var json = {
 	
 	"activity1":{
