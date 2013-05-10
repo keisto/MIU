@@ -1,4 +1,4 @@
-//  Mold Fitness :: Project: Web App Part 4 :: By Tony Keiser 1112
+//Mold Fitness :: MiU Project 1 :: By Tony Keiser 1212
 
 //Wait until DOM is loaded
 window.addEventListener("DOMContentLoaded", function(){
@@ -362,6 +362,7 @@ function autoFill(){
 //Index View Data ###################################################################
 //###################################################################################
 	
+
 	 var myUrl = window.location.href;
 	 var splitUrl = myUrl.split("/");
 	 var lastUrl = splitUrl.length - 1
@@ -372,9 +373,12 @@ function autoFill(){
 			viewData();
 		}
 		
+/*
 		iView.addEventListener("click", iViewData);
 		 console.log("hello");
-	 }
+*/
+	 } else {
+
 
 //###################################################################################
 //EventListeners ###################################################################
@@ -389,7 +393,7 @@ function autoFill(){
 	clear.addEventListener("click", clearData);
 	male.addEventListener("change", genderValue);
 	female.addEventListener("change", genderValue);
-
+};
 //###################################################################################
 // ##### OLD ELs #####
 //###################################################################################
