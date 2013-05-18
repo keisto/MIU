@@ -15,14 +15,20 @@ header{
 	background-image: -ms-linear-gradient(#C1272D 30%, #77181C 100%);
 	box-shadow: 0px -1px 10px 2px black;
 }
-
-body {	
+@font-face{
+		font-family: 'MinstrelPosterWHGRegular';
+    src: url('../font/minspsw_.eot');
+    src: url('../font/minspsw_.eot') format('embedded-opentype'),
+         url('../font/minspsw_.woff') format('woff'),
+         url('../font/minspsw_.ttf') format('truetype'),
+         url('../font/minspsw_.svg#MinstrelPosterWHGRegular') format('svg');
+}
+body {	    
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 800;
 	margin: 0;
-	font-family: 'Roboto', sans-serif;
-	font-size: medium;
 	color: #1A1A1A;
 	padding: 0px;
-	text-shadow: 0px 0px 1px black;
 	text-align: center;
 	background-position: left bottom;
 	background: url('../_img/bg.jpg') no-repeat center center fixed;
@@ -35,35 +41,36 @@ body {
 form{
 	text-align: center;
 }
-
-
 fieldset {
-
-	border: 0px;
- 	margin: 0px;
-	background-image: url(../_img/logosmall.png);
-	background-position: 98% 98%;
-	background-repeat: no-repeat;
-	background-size: 140px;
+	background-color:white;
+	border: 1px solid #888888;
+ 	margin: 0px 20px 0px 20px;
 }
 legend {
 	padding-top: 60px;
 	margin: 0px;
-	color: white;
+	color: #1A1A1A;
 }
 
 label {
+	font-family: 'MinstrelPosterWHGRegular';
+    src: url('../font/minspsw_.eot');
+    src: url('../font/minspsw_.eot') format('embedded-opentype'),
+         url('../font/minspsw_.woff') format('woff'),
+         url('../font/minspsw_.ttf') format('truetype'),
+         url('../font/minspsw_.svg#MinstrelPosterWHGRegular') format('svg');
 	padding: 2px;
 	margin: 0px;
-	color: white;
+	font-size: large;
+	color: #1A1A1A;
 	display: block;
 }
 
 hr {
-	width: 80%;
-	padding: 0px;
-	margin-top: -5px;
-	border-color: #184C49;
+  margin: 5px 0;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #ffffff;
 }
 ul {
 	list-style-type:none;
@@ -76,6 +83,12 @@ li{
 	text-align: left;
 }
 h1{
+	font-family: 'MinstrelPosterWHGRegular';
+    src: url('../font/minspsw_.eot');
+    src: url('../font/minspsw_.eot') format('embedded-opentype'),
+         url('../font/minspsw_.woff') format('woff'),
+         url('../font/minspsw_.ttf') format('truetype'),
+         url('../font/minspsw_.svg#MinstrelPosterWHGRegular') format('svg');
 	display: block;
 	font-size: x-large;
 	padding: 0px;
@@ -112,7 +125,7 @@ textarea {
 	resize: vertical;
 }
 checkbox{
-	color: white;
+	color: #3e3e3e;
 }
 
 /* Web links */
@@ -131,12 +144,13 @@ a:active {text-decoration:none; color:black; }
 	height: 44px;
 	width: 100%;
 	line-height: 44px;
+	border-top: 1px solid #4b4b4b;
 	background-image: linear-gradient(#000000 0%, #1a1a1a 100%);
 	background-image: -o-linear-gradient(#000000 0%, #1a1a1a 100%);
 	background-image: -moz-linear-gradient(#000000 0%, #1a1a1a 100%);
 	background-image: -webkit-linear-gradient(#000000 0%, #1a1a1a 100%);
 	background-image: -ms-linear-gradient(#000000 30%, #1a1a1a 100%);
-	box-shadow: 0px -1px 10px 2px black;
+	box-shadow: 0px -1px 5px 2px rgba(0,0,0,0.50);
 	
 }
 .mybutton{
@@ -144,17 +158,13 @@ a:active {text-decoration:none; color:black; }
 	background-color: transparent;
 	padding: 0px;
 	margin: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
 	border: 0;
 	color: white;
 	vertical-align: center;
 }
-.vr {
-	width: 1px;
-	height: 35px;
-	margin-left: 10px;
-	margin-right: 10px;
-	display: inline;	
-}
+
 .copyright {	
 	font-size: small;
 	text-align: center;
@@ -174,9 +184,10 @@ a:active {text-decoration:none; color:black; }
 	margin-bottom: 100px;
 }
 .genderradio {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 800;
 	padding: 2px;
 	margin: 0px;
-	color: white;
 	display:inline; 
 	vertical-align:bottom;
 }

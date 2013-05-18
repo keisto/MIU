@@ -201,7 +201,7 @@ var json = {
 		"pass":	    ["Password:", "123"],
 		"gender": 	["Gender:", "Male"],
 		"weight": 	["Weight:", "140"],
-		"muscle": 	["Activity:", "Leg"],
+		"muscle": 	["Activity:", "Legs"],
 		"sets": 	["Number of Sets:", "3"],
 		"reps":		["Number of Reps:", "10"],
 		"cardio":	["Cardio Today:", false],

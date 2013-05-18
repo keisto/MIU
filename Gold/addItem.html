@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--Mold Fitness :: MiU Project 1 :: By Tony Keiser 1212-->
+<html>
+	<head>
+	<!--Meta Tags-->
+		<meta charset="utf-8"/>		
+		<meta name="discription"       content="Workout Planner"/>
+		<meta name="keywords"          content="planner, workout, gym, daily, fitness, exercise"/>
+		<meta name="robots"            content="index, follow"/>	
+		<meta name="viewport"          content="width=device-width, user-scalable=no"/>  
+		<meta name="viewport"          content="target-densitydpi=device-dpi" />  
+		<meta name="HandheldFriendly"  content="true"/>  
+		<meta name="MobileOptimized"   content="320"/> 
+	<!--Sources-->
+		<link href="_css/style.css" rel="stylesheet" type="text/css" />
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<!--Page Title & Icon-->
+		<title>MOLD FITNESS</title>
+		<link href="_img/favicon.ico" rel="shortcut icon" >
+	</head>
+	<!--Body-->
+	<body>
+			<!--Brand Header-->
+		<header>
+			<a href="index.html"><img src="_img/brand.png" alt="Mold Fitness" width="300px" /></a>
+		</header>
+		<form action="#" method="post" id="form">
+			<fieldset>
+				<legend><h1>ADD ITEM</h1></legend>
+				<hr>
+					<ul id="errors"></ul>
+					<ul>
+						<li><label for="name">Name:</label><input type="text" id="name" placeholder="First & Last Name"/></li>
+						<li><label for="pass">Password:</label><input type="password" id="pass" placeholder="Password"/></li>
+						<li>
+						<label for="gender">Gender:</label>
+							<input type="radio" value="Male" id="male" name="gender" />
+								<label class="genderradio" for="male">Male</label></li>
+						<li>
+							<input class="1" type="radio" value="Female" id="female" name="gender" />
+								<label class="genderradio" for="female">Female</label></li>
+						<li><label for="weight">Current Weight:</label>
+							<input type="number" id="weight" placeholder="in Pounds" /></li>
+						<li><label for="activity">Activity:</label>
+							<select id="activity">	
+									<option selected="null"></option>  
+								<optgroup label="Choose an Activity"> 
+									<option value="Cardio">Cardio</option> 
+									<option value="Rest">Rest</option>	
+								<optgroup label="Select Muscle Group">
+									<option value="Chest">Chest</option>
+									<option value="Back">Back</option>
+									<option value="Legs">Legs</option>
+									<option value="Arms">Arms</option>
+									<option value="Abs">Abs</option>
+																	
+								</optgroup>
+							</select>
+						</li>
+						<li><label for="sets"># of Sets:</label><input type="range" min="0" max="10" value="0" id="sets"/><span id="nSets"></span></li>
+						<li><label for="reps"># of Reps:</label><input type="range" min="0" max="100" value="0" id="reps"/><span id="nReps"></span></li>	
+						<li><label for="cardio">Cardio:</label><input type="checkbox" id="cardio"/> yes</li>
+						<li id="cardioBox" class="hide"><label for="time">Cardio Time:</label><input type="range" min="0" max="60" value="0" id="time"/><span id="nTime"></span></li>
+						<li><label for="notes">Notes :</label><textarea id="notes" placeholder="Additional Info."></textarea></li>
+						<li><label for="date">Set Date :</label><input type="date" id="date"/></li>
+
+					</ul>
+			</fieldset>			
+		</form>
+		<nav class="mynav">
+		<a href="index.html"><input class="mybutton" type="button" value="&laquo;"/></a>
+
+		<input class="mybutton" type="button" value="Clear" id="clear"/>
+		<input class="mybutton" type="button" value="View" id="view"/>
+		<input class="mybutton" type="button" value="Add Workout" id="add"/>
+		</nav>
+		<form id="viewForm" class="hide">
+			<fieldset>
+				<legend><h1>Current Workout(s):</h1></legend>
+				<hr>
+				<span id="workout"></span>
+			</fieldset>
+		</form>
+<!--Footer-->
+		<footer>
+			<div class="copyright"> &copy;&nbsp;1212 :: TONY KEISER :: PROJECT 1 :: MIU </div>
+		</footer>
+	</body>
+<!--JavaScript(s)-->
+	<script src="_js/json.js" type="text/javascript"></script>
+	<script src="_js/main.js" type="text/javascript"></script>
+	<script src="_js/json.js" type="text/javascript"></script>
+
+</html>
