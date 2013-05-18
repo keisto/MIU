@@ -1,0 +1,439 @@
+<!doctype html>  
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	
+	<title>Mold Fitness</title>
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Mobile IE needs ClearType for smoothing fonts -->
+	<meta http-equiv="cleartype" content="on">
+	
+	<!-- StyleSheets under here -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+	
+	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="js/libs/modernizr.custom.min.js"></script>
+
+</head>
+<body>
+	<!-- Page -->
+	<div data-role="page" id="home">
+		<!-- Header -->
+		<div data-role="header" data-position="fixed" data-id="main" data-theme="b">
+			<h1>MOLD FITNESS</h1>
+		</div>
+		<!-- Body -->
+		<div data-role="content">
+						<div class="cta">
+				<a href="addItem.html">
+					<img class="ctaImg" src="images/cta.png" alt="Click Here!" width="100%" />
+				</a>
+						</div>	
+			
+				<ul data-role="listview" data-filter="true" data-inset="true">
+					<li data-role="list-divider">Browse by Activity:</li>
+					<li><a href=#chest>
+						<h3>Chest</h3>
+						<span class="ui-li-count">3</span>
+					</a></li>
+					<li><a href=#back>
+						<h3>Back</h3>
+						<span class="ui-li-count">2</span>
+					</a></li>
+					<li><a href=#legs>
+						<h3>Legs</h3>
+						<span class="ui-li-count">3</span>
+					</a></li>
+					<li><a href=#arms>
+						<h3>Arms</h3>
+						<span class="ui-li-count">2</span>
+					</a></li>
+					<li><a href=#abs>
+						<h3>Abs</h3>
+						<span class="ui-li-count">2</span>
+					</a></li>
+					<li><a href=#cardio>
+						<h3>Cardio</h3>
+						<span class="ui-li-count">4</span>
+					</a></li>
+					<li><a href=#rest>
+						<h3>Rest</h3>
+						<span class="ui-li-count">4</span>
+					</a></li>
+				</ul>
+		</div>
+		<!--Footer-->
+		<div data-role="footer">
+			<div data-role="navbar" data-position="fixed" data-iconpos="left">	
+				<ul>
+					<li><a href="#upcoming" data-icon="star">Upcoming</a></li>
+					<li><a href="#about" data-icon="info">About</a></li>
+					<li><a href="addItem.html" data-icon="plus">Add</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- Page -->
+	<div data-role="page" id="upcoming" data-add-back-btn="true">
+		<!-- Header -->
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<h1>Upcoming Activities</h1> 
+		</div>
+		<!-- Body -->
+		<div data-role="content">
+			<ul data-role="listview" data-filter="true">
+				<li data-role="list-divider">Today(s) Activities:</li>
+				<li>
+					<img src="images/male.png"/>
+					<h3>Max Keiser</h3>
+					<p>5 sets of 10 reps | 10 min. cardio</p>
+					<p>Date: 05-17-2013</p>
+				</li>
+				<li data-role="list-divider">Tomorrow(s) Activities:</li>
+				<li>
+					<img src="images/male.png"/>
+					<h3>Kevin Larson</h3>
+					<p>3 sets of 10 reps | No Cardio</p>
+					<p>Date: 05-18-2013</p>
+				</li>
+			</ul>
+		</div>	
+		<!--Footer-->
+		<div data-role="footer">
+			<div data-role="navbar" data-position="fixed" data-iconpos="left">	
+				<ul>
+					<li><a href="#upcoming" data-icon="star" class="ui-btn-active">Upcoming</a></li>
+					<li><a href="#about" data-icon="info">About</a></li>
+					<li><a href="addItem.html" data-icon="plus">Add</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- Page -->
+	<div data-role="page" id="about" data-add-back-btn="true">
+		<!-- Header -->
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<h1>About</h1> 
+		</div>
+		<!-- Body -->
+		<div data-role="content">
+			<h3>Mold Fitness</h3>
+			<p>Hello, my name is Tony Keiser and I am currently attending Full Sail University. You can find the files for this app on GitHub at: </p>
+				<a href="http://github.com/keisto/MIU/">View Files</a><br/>
+				<a href="http://keisto.github.io/MIU/">View Webpage</a>
+				<p>I also have 2 versions of this app. This is the Gold app to view the Bronze <a href="../Bronze/index.html">click here</a>.</p>
+				
+			
+			<h4>By Tony Keiser</h4>
+		</div>	
+		<!--Footer-->
+		<div data-role="footer">
+			<div data-role="navbar" data-position="fixed" data-iconpos="left">	
+				<ul>
+					<li><a href="#upcoming" data-icon="star">Upcoming</a></li>
+					<li><a href="#about" data-icon="info" class="ui-btn-active">About</a></li>
+					<li><a href="addItem.html" data-icon="plus">Add</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- Page -->
+	<div data-role="page" id="chest" data-add-back-btn="true">
+		<!-- Header -->
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<h1>Chest Workouts</h1> 
+		</div>
+		<!-- Body -->
+		<div data-role="content">
+			<ul data-role="listview" data-filter="true">
+				<li>
+					<img src="images/male.png"/>
+					<h3>Bo Brown</h3>
+					<p>5 sets of 10 reps | 10 min. cardio</p>
+					<p>Date: 05-03-2013</p>
+				</li>
+				<li>
+					<img src="images/male.png"/>
+					<h3>Kevin Larson</h3>
+					<p>3 sets of 10 reps | No Cardio</p>
+					<p>Date: 05-18-2013</p>
+				</li>
+				<li>
+					<img src="images/male.png"/>
+					<h3>Max Keiser</h3>
+					<p>5 sets of 10 reps | 10 min. cardio</p>
+					<p>Date: 05-17-2013</p>
+				</li>				
+			</ul>
+		</div>	
+		<!--Footer-->
+		<div data-role="footer">
+			<div data-role="navbar" data-position="fixed" data-iconpos="left">	
+				<ul>
+					<li><a href="#upcoming" data-icon="star">Upcoming</a></li>
+					<li><a href="#about" data-icon="info">About</a></li>
+					<li><a href="addItem.html" data-icon="plus">Add</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Page -->
+	<div data-role="page" id="back" data-add-back-btn="true">
+		<!-- Header -->
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<h1>Back Workouts</h1> 
+		</div>
+		<!-- Body -->
+		<div data-role="content">
+			<ul data-role="listview" data-filter="true">
+				<li>
+					<img src="images/male.png"/>
+					<h3>Mike Jones</h3>
+					<p>5 sets of 10 reps | No Cardio</p>
+					<p>Date: 05-03-2010</p>
+				</li>
+				<li>
+					<img src="images/male.png"/>
+					<h3>Keith Kucera</h3>
+					<p>3 sets of 10 reps | No Cardio</p>
+					<p>Date: 05-23-2013</p>
+				</li>	
+			</ul>
+		</div>	
+		<!--Footer-->
+		<div data-role="footer">
+			<div data-role="navbar" data-position="fixed" data-iconpos="left">	
+				<ul>
+					<li><a href="#upcoming" data-icon="star">Upcoming</a></li>
+					<li><a href="#about" data-icon="info">About</a></li>
+					<li><a href="addItem.html" data-icon="plus">Add</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- Page -->
+	<div data-role="page" id="legs" data-add-back-btn="true">
+		<!-- Header -->
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<h1>Leg Workouts</h1> 
+		</div>
+		<!-- Body -->
+		<div data-role="content">
+			<ul data-role="listview" data-filter="true">
+				<li>
+					<img src="images/female.png"/>
+					<h3>Pagi Ando</h3>
+					<p>3 sets of 10 reps | 30 min. cardio</p>
+					<p>Date: 05-04-2013</p>
+				</li>
+				<li>
+					<img src="images/male.png"/>
+					<h3>Kody Dyson-Sem</h3>
+					<p>3 sets of 10 reps | No Cardio</p>
+					<p>Date: 05-20-2013</p>
+				</li>
+				<li>
+					<img src="images/male.png"/>
+					<h3>Jake Lea</h3>
+					<p>3 sets of 10 reps | No cardio</p>
+					<p>Date: 05-23-2013</p>
+				</li>				
+			</ul>
+		</div>	
+		<!--Footer-->
+		<div data-role="footer">
+			<div data-role="navbar" data-position="fixed" data-iconpos="left">	
+				<ul>
+					<li><a href="#upcoming" data-icon="star">Upcoming</a></li>
+					<li><a href="#about" data-icon="info">About</a></li>
+					<li><a href="addItem.html" data-icon="plus">Add</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- Page -->
+	<div data-role="page" id="arms" data-add-back-btn="true">
+		<!-- Header -->
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<h1>Arm Workouts</h1> 
+		</div>
+		<!-- Body -->
+		<div data-role="content">
+			<ul data-role="listview" data-filter="true">
+				<li>
+					<img src="images/male.png"/>
+					<h3>Micheal Brain</h3>
+					<p>3 sets of 10 reps | No Cardio</p>
+					<p>Date: 05-30-2013</p>
+				</li>
+				<li>
+					<img src="images/male.png"/>
+					<h3>Brandon Keiser</h3>
+					<p>3 sets of 15 reps | 10 min. cardio</p>
+					<p>Date: 05-17-2013</p>
+				</li>			
+			</ul>
+		</div>	
+		<!--Footer-->
+		<div data-role="footer">
+			<div data-role="navbar" data-position="fixed" data-iconpos="left">	
+				<ul>
+					<li><a href="#upcoming" data-icon="star">Upcoming</a></li>
+					<li><a href="#about" data-icon="info">About</a></li>
+					<li><a href="addItem.html" data-icon="plus">Add</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- Page -->
+	<div data-role="page" id="abs" data-add-back-btn="true">
+		<!-- Header -->
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<h1>Ab Workouts</h1> 
+		</div>
+		<!-- Body -->
+		<div data-role="content">
+			<ul data-role="listview" data-filter="true">
+				<li>
+					<img src="images/male.png"/>
+					<h3>Tony Keiser</h3>
+					<p>5 sets of 20 reps | 30 min. cardio</p>
+					<p>Date: 05-12-2013</p>
+				</li>
+				<li>
+					<img src="images/female.png"/>
+					<h3>Randi Keiser</h3>
+					<p>3 sets of 30 reps | No Cardio</p>
+					<p>Date: 05-24-2013</p>
+				</li>
+			</ul>
+		</div>	
+		<!--Footer-->
+		<div data-role="footer">
+			<div data-role="navbar" data-position="fixed" data-iconpos="left">	
+				<ul>
+					<li><a href="#upcoming" data-icon="star">Upcoming</a></li>
+					<li><a href="#about" data-icon="info">About</a></li>
+					<li><a href="addItem.html" data-icon="plus">Add</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- Page -->
+	<div data-role="page" id="cardio" data-add-back-btn="true">
+		<!-- Header -->
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<h1>Cardio Workouts</h1> 
+		</div>
+		<!-- Body -->
+		<div data-role="content">
+			<ul data-role="listview" data-filter="true">
+				<li>
+					<img src="images/male.png"/>
+					<h3>Mike Golob</h3>
+					<p>No Weights | 60 min. cardio</p>
+					<p>Date: 05-12-2013</p>
+				</li>
+				<li>
+					<img src="images/female.png"/>
+					<h3>Karen Peterson</h3>
+					<p>No Weights | 30 min. cardio</p>
+					<p>Date: 05-13-2013</p>
+				</li>
+				<li>
+					<img src="images/female.png"/>
+					<h3>Dani Randle</h3>
+					<p>No Weights | 45 min. cardio</p>
+					<p>Date: 05-20-2013</p>
+				</li>
+				<li>
+					<img src="images/female.png"/>
+					<h3>Chayna Basta</h3>
+					<p>No Weights | 30 min. cardio</p>
+					<p>Date: 05-23-2013</p>
+				</li>							
+			</ul>
+		</div>	
+		<!--Footer-->
+		<div data-role="footer">
+			<div data-role="navbar" data-position="fixed" data-iconpos="left">	
+				<ul>
+					<li><a href="#upcoming" data-icon="star">Upcoming</a></li>
+					<li><a href="#about" data-icon="info">About</a></li>
+					<li><a href="addItem.html" data-icon="plus">Add</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- Page -->
+	<div data-role="page" id="rest" data-add-back-btn="true">
+		<!-- Header -->
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<h1>Rest</h1> 
+		</div>
+		<!-- Body -->
+		<div data-role="content">
+			<ul data-role="listview" data-filter="true">
+				<li>
+					<img src="images/male.png"/>
+					<h3>Jake Lea</h3>
+					<p>No Weights | No Cardio</p>
+					<p>Date: 05-03-2013</p>
+				</li>
+				<li>
+					<img src="images/female.png"/>
+					<h3>Brittany Ann</h3>
+					<p>No Weights | No Cardio</p>
+					<p>Date: 05-21-2013</p>
+				</li>
+				<li>
+					<img src="images/male.png"/>
+					<h3>John Michealson</h3>
+					<p>No Weights | No Cardio</p>
+					<p>Date: 05-28-2013</p>
+				</li>
+				<li>
+					<img src="images/male.png"/>
+					<h3>Bradley Clark</h3>
+					<p>No Weights | No Cardio</p>
+					<p>Date: 05-29-2013</p>
+				</li>							
+			</ul>
+		</div>	
+		<!--Footer-->
+		<div data-role="footer">
+			<div data-role="navbar" data-position="fixed" data-iconpos="left">	
+				<ul>
+					<li><a href="#upcoming" data-icon="star">Upcoming</a></li>
+					<li><a href="#about" data-icon="info">About</a></li>
+					<li><a href="addItem.html" data-icon="plus">Add</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- JavaScript under here -->
+
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+	<script src="js/json.js" type="text/javascript"></script>
+
+</body>
+</html>

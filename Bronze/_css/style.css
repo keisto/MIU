@@ -1,0 +1,238 @@
+/* Mold Fitness :: MiU Project 1 :: By Tony Keiser 1212 */
+/* Default Classes */
+header{
+	text-align: center;
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	width: 100%;
+	padding: 5px;
+	background-image: linear-gradient(#C1272D 0%, #77181C 100%);
+	background-image: -o-linear-gradient(#C1272D 0%, #77181C 100%);
+	background-image: -moz-linear-gradient(#C1272D 0%, #77181C 100%);
+	background-image: -webkit-linear-gradient(#C1272D 0%, #77181C 100%);
+	background-image: -ms-linear-gradient(#C1272D 30%, #77181C 100%);
+	box-shadow: 0px -1px 10px 2px black;
+}
+@font-face{
+		font-family: 'MinstrelPosterWHGRegular';
+    src: url('../font/minspsw_.eot');
+    src: url('../font/minspsw_.eot') format('embedded-opentype'),
+         url('../font/minspsw_.woff') format('woff'),
+         url('../font/minspsw_.ttf') format('truetype'),
+         url('../font/minspsw_.svg#MinstrelPosterWHGRegular') format('svg');
+}
+body {	    
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 800;
+	margin: 0;
+	color: #1A1A1A;
+	padding: 0px;
+	text-align: center;
+	background-position: left bottom;
+	background: url('../_img/bg.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover; /*for webKit*/
+        -moz-background-size: cover; /*Mozilla*/
+        -o-background-size: cover; /*opera*/
+        background-size: cover; /*generic*/ 
+
+}
+form{
+	text-align: center;
+}
+fieldset {
+	background-color:white;
+	border: 1px solid #888888;
+ 	margin: 0px 20px 0px 20px;
+}
+legend {
+	padding-top: 60px;
+	margin: 0px;
+	color: #1A1A1A;
+}
+
+label {
+	font-family: 'MinstrelPosterWHGRegular';
+    src: url('../font/minspsw_.eot');
+    src: url('../font/minspsw_.eot') format('embedded-opentype'),
+         url('../font/minspsw_.woff') format('woff'),
+         url('../font/minspsw_.ttf') format('truetype'),
+         url('../font/minspsw_.svg#MinstrelPosterWHGRegular') format('svg');
+	padding: 2px;
+	margin: 0px;
+	font-size: large;
+	color: #1A1A1A;
+	display: block;
+}
+
+hr {
+  margin: 5px 0;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #ffffff;
+}
+ul {
+	list-style-type:none;
+	padding: 0px;
+	margin:0px;
+	text-align: center;
+}
+li{
+	margin: 5px;
+	text-align: left;
+}
+h1{
+	font-family: 'MinstrelPosterWHGRegular';
+    src: url('../font/minspsw_.eot');
+    src: url('../font/minspsw_.eot') format('embedded-opentype'),
+         url('../font/minspsw_.woff') format('woff'),
+         url('../font/minspsw_.ttf') format('truetype'),
+         url('../font/minspsw_.svg#MinstrelPosterWHGRegular') format('svg');
+	display: block;
+	font-size: x-large;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+select{
+	width: 32%;
+}
+input[type=range]{
+	width: 32%;
+}
+input[type=text],[type=password],textarea,[type=date],[type=number]{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    height: 20px;
+    padding: 4px 6px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 60%;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(85, 85, 85);
+    border-radius: 4px 4px 4px; 
+    -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+        
+}
+textarea {
+	width: 60%;
+	height: 20px;	
+	resize: vertical;
+}
+checkbox{
+	color: #3e3e3e;
+}
+
+/* Web links */
+a:link {text-decoration:none; color:black; }
+a:visited {text-decoration:none; color:black;}
+a:hover {text-decoration:none; color:black;}
+a:active {text-decoration:none; color:black; }
+
+/* Custom Classes */
+.mynav{
+	position: fixed;
+	text-align: center;
+	bottom:0;
+	left:0;
+	right:0;
+	height: 44px;
+	width: 100%;
+	line-height: 44px;
+	border-top: 1px solid #4b4b4b;
+	background-image: linear-gradient(#000000 0%, #1a1a1a 100%);
+	background-image: -o-linear-gradient(#000000 0%, #1a1a1a 100%);
+	background-image: -moz-linear-gradient(#000000 0%, #1a1a1a 100%);
+	background-image: -webkit-linear-gradient(#000000 0%, #1a1a1a 100%);
+	background-image: -ms-linear-gradient(#000000 30%, #1a1a1a 100%);
+	box-shadow: 0px -1px 5px 2px rgba(0,0,0,0.50);
+	
+}
+.mybutton{
+	font-size: large;
+	background-color: transparent;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 0;
+	color: white;
+	vertical-align: center;
+}
+
+.copyright {	
+	font-size: small;
+	text-align: center;
+	padding: 0px;
+	color: #1A1A1A;
+	margin: 10px;
+}
+.ulink{
+	text-align: center;
+	list-style-type:none;	
+	padding: 0;
+	margin: 0;
+	margin-bottom: 5px;
+}
+.under{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.genderradio {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 800;
+	padding: 2px;
+	margin: 0px;
+	display:inline; 
+	vertical-align:bottom;
+}
+.hide {
+	display: none;
+}
+.cta{
+	width: 100%;
+	padding-top: 45px;
+}
+.ctaImg{
+	box-shadow:0px -1px 10px 2px black;
+}
+.browseBy{
+	color: white;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding: 5px 5px 5px 10px;
+	text-align: left;
+	background-image: linear-gradient(#333333 0%, #000000 100%);
+	background-image: -o-linear-gradient(#333333 0%, #000000 100%);
+	background-image: -moz-linear-gradient(#333333 0%, #000000 100%);
+	background-image: -webkit-linear-gradient(#333333 0%, #000000 100%);
+	background-image: -ms-linear-gradient(#333333 0%, #000000 100%);
+	border-radius: 6px 6px 6px; 
+    -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+.arrow {
+	position: absolute;
+	right: 20px;
+}
+.search{
+	margin: 5px;
+	width: 240px;
+}
+.divide {
+	border-bottom: 2px dotted white;
+	color: white; 
+	width: 40%;
+	margin-top: 5px;
+}
+.viewActivity {
+	word-break: break-word;
+	margin-bottom: 50px;
+}
+

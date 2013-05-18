@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'MinstrelPosterWHGRegular';
+    src: url('minspsw_.eot');
+    src: url('minspsw_.eot') format('embedded-opentype'),
+         url('minspsw_.woff') format('woff'),
+         url('minspsw_.ttf') format('truetype'),
+         url('minspsw_.svg#MinstrelPosterWHGRegular') format('svg');
+}
