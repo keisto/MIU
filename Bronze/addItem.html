@@ -29,10 +29,11 @@
 			<fieldset>
 				<legend><h1>ADD ITEM</h1></legend>
 				<hr>
+				<p><small>* = Required</small></p>
 					<ul id="errors"></ul>
 					<ul>
-						<li><label for="name">Name:</label><input type="text" id="name" placeholder="First & Last Name"/></li>
-						<li><label for="pass">Password:</label><input type="password" id="pass" placeholder="Password"/></li>
+						<li><label for="name">Name: *</label><input type="text" id="name" placeholder="First & Last Name"/></li>
+						<li><label for="pass">Password: *</label><input type="password" id="pass" placeholder="Password"/></li>
 						<li>
 						<label for="gender">Gender:</label>
 							<input type="radio" value="Male" id="male" name="gender" />
@@ -42,7 +43,7 @@
 								<label class="genderradio" for="female">Female</label></li>
 						<li><label for="weight">Current Weight:</label>
 							<input type="number" id="weight" placeholder="in Pounds" /></li>
-						<li><label for="activity">Activity:</label>
+						<li><label for="activity">Activity: *</label>
 							<select id="activity">	
 									<option selected="null"></option>  
 								<optgroup label="Choose an Activity"> 
@@ -63,7 +64,7 @@
 						<li><label for="cardio">Cardio:</label><input type="checkbox" id="cardio"/> yes</li>
 						<li id="cardioBox" class="hide"><label for="time">Cardio Time:</label><input type="range" min="0" max="60" value="0" id="time"/><span id="nTime"></span></li>
 						<li><label for="notes">Notes :</label><textarea id="notes" placeholder="Additional Info."></textarea></li>
-						<li><label for="date">Set Date :</label><input type="date" id="date"/></li>
+						<li><label for="date">Set Date : *</label><input type="date" id="date"/></li>
 
 					</ul>
 			</fieldset>			

@@ -149,7 +149,6 @@ window.addEventListener("DOMContentLoaded", function(){
 			makeItemLinks(localStorage.key(i), links);
 		} 
 	}
-
 //###################################################################################	
 // Auto Fill Data ###################################################################
 //###################################################################################
@@ -164,7 +163,6 @@ function autoFill(){
 	}
 	
 }
-
 
 //###################################################################################	
 //GetImgae - Image for Activity list ################################################
@@ -396,39 +394,6 @@ function autoFill(){
 	male.addEventListener("change", genderValue);
 	female.addEventListener("change", genderValue);
 };
-
-
-/*
-//###################################################################################
-//Dates #############################################################################
-//###################################################################################
-var date = new Date;
-var myYear = date.getFullYear();
-var theMonth = date.getMonth()+1;
-var theDate = date.getDate();
-//
-
-function myMonth(theMonth) {
-   
-     return (theMonth < 10 ? '0' : '') + theMonth
-   
-}
-function myDate(theDate) {
-   
-     return (theDate < 10 ? '0' : '') + theDate
-   
-}
-
-var i = 1;
-
-
-function newsFeed (){
-console.log(json.activity.date[1]);
-}
-newsFeed ();
-console.log(myYear +"-"+ myMonth(theMonth) +"-"+ myDate(theDate)  );
-*/
-
 //###################################################################################
 // ##### OLD ELs #####
 //###################################################################################
