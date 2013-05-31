@@ -5,8 +5,8 @@
 	margin-bottom: 12px;
 }
 .ui-bar-a {border: none;}
-.hint {color:white; font-size: small; text-align: center; margin: 4px;}
+.hint {color:black; font-size: small; text-align: center; margin: 4px;}
 .hide {display: none;}
 label.error{display:block; padding-top: 4px; color:#c10000; text-align: center; font-weight: 600; font-size: small;}
 .reset {text-align: center;}
-.panel {text-align: center; color: white;}
+.panel {text-align: center; color: black;}
